@@ -1,0 +1,17 @@
+*{
+  box-sizing: border-box;
+}
+
+div{
+  border: 0.5px solid darkgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body{
+  margin: auto;
+  display: flex;
+  /* width: 480px; */
+  align-content: center;
+}

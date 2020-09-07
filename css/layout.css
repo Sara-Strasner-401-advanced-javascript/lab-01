@@ -1,0 +1,75 @@
+body{
+  width: 480px;
+}
+
+#A{
+  height: 75px;
+  width: 480px;
+}
+  
+#B{
+  height: 150px;
+  width: 480px;
+}
+
+#C, #D{
+  height: 125px;
+  width: 480px;
+}
+
+#E, #F{
+  height: 250px;
+  width: 240px;
+  float: left;
+}
+
+#G, #H{
+  height: 250px;
+  width: 240px;
+  float: left;
+}
+
+#I{
+  height: 80px;
+  width: 480px;
+}
+
+@media only screen and (min-width:768px){
+  body{
+    width: 960px;
+  }
+  
+  #A{
+    height: 100px;
+    width: 960px;
+  }
+
+  #B{
+    height: 600px;
+    width: 200px;
+    float: left;
+  }
+
+  #C, #D{
+    height: 200px;
+    width: 380px;
+    float: left;
+  }
+
+  #E, #F{
+    height: 250px;
+    width: 190px;
+    float: left;
+  }
+
+  #G, #H{
+    height: 250px;
+    width: 190px;
+    float: left;
+  }
+
+  #I{
+    height: 150px;
+    width: 760px;
+  }
+}
