@@ -1,0 +1,15 @@
+*{
+  box-sizing: border-box;
+}
+div{
+  border: 1px solid darkgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body{
+  margin: auto;
+  align-content: center;
+  display: grid;
+  text-align: center;
+}
